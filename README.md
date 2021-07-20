@@ -44,5 +44,12 @@
   
   ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/ExecutiveDashboard.png)
   
-  
+  * Calculated [Total Sales], [LY Sales], [YoY Sales], [YoY Growth] for the sales trends
+  * The DAX used are as follows:
+         * i.	Total Sales = SUM(FactSales[SalesAmount])  
+         * ii.	LY Sales = CALCULATE ([Total Sales], DATEADD(DimDate[Date], -1, YEAR))
+*Note: Can also use SAMEPERIODLASTYEAR(DimDate[Date]) and PREVIOUSYEAR(DimDate[Date])  functions which returned the same results.
+
+         * iii.	YoY Sales = [Total Sales] - [LY Sales]
+         * iv.	YoY Sales % = DIVIDE ([YoY Sales], [LY Sales], "-")
 
