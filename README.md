@@ -1,4 +1,4 @@
-# AdventureWorks Sales Dashboard
+# Executive Dashboard
 
 # Details of the dashboard
 ## Data Setup:
@@ -8,35 +8,44 @@
       *	Updated the Date column to include the recent dates with TSQL code.
       *	Cleansed the Date table to include only the required column and year with following TSQL code.
       
-      ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/Dim_Date_SQL.png) 
+      ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/DimDate2.png)
       
     * [DIM_Product]
       *	Cleansed the Product table to include only the required column and joined the ProductCategory and ProductSubcategory tables with following TSQL code.
       
       ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/Dim_Product_SQL.png)
       
-    * [DIM_Customer]
-      * Cleansed the Customer Table to include only the required column and joined Geography Table to get the City column as shown:
+      *	Made changes to because joining the product, category and subcategory resulted in many-to-many relationship so changed the TSQL code to avoid the many-to-many relationship and created the model with many-to-1 relationship.
       
-      ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/Dim_Customer_SQL.png)
+      ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/DimProduct2-2.png)
+      ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/DimSubcategory2.png)
+      ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/DimCategory2.png)
+      
+    * [DIM_Territory]
+      * To analyse the regional sales data joined the tables Geography and SalesTerritory as shown:
+      
+      ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/DimGeography2.png)
     
-    * [FACT_InternetSales]
-      * Cleansed InternetSales Table and ensuring to bring only 2 years of Data during extraction.
+    * [FACT_Sales]
+      * Cleansed InternetSales Table and ensuring to bring 10 years of Data during extraction.
       
-      ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/Fact_InternetSales_SQL.png)
+      ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/FactSales.png)
       
 
 ## Data Model:
   * Imported all the CSV files (Reults of TSQL Codes saved to CSV file) to Power BI and created a Key Metrics Measure Table for all the measures.
   * The Data Model in Power BI looks like the following:
   
-   ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/Data%20Model.png)
+   ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/DataModel2.png)
    
       
-## Visuals:
-  * The Sales Dashboard with the visuals is as shown:
+## Reporting and Visuals:
+  * The Executive Dashboard with the visuals is as shown:
   
-    ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/Sales%20Dashboard.png)
+  ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/ExecutiveDashboard.png)
+  
+  
+  
   
   * Added Customer Details report as shown:
   
