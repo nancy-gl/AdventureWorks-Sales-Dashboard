@@ -1,6 +1,6 @@
-# AdventureWorks-Sales-Dashboard
+# AdventureWorks Sales Dashboard
 
-# Details of the report
+# Details of the dashboard
 ## Data Setup:
   * With the best practice mindset, pushing all the data cleaning steps in the data source, used the following TSQL codes to clean the data in the SQL Server (used SQL Server 2019). 
   * Updated and cleaned the Database’s Dimension and Fact Tables.
