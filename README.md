@@ -46,6 +46,7 @@
   
   * Calculated [Total Sales], [LY Sales], [YoY Sales], [YoY Growth] for the sales trends
   * The DAX used are as follows:
+  
           * i.	Total Sales = SUM(FactSales[SalesAmount])  
           * ii.	LY Sales = CALCULATE ([Total Sales], DATEADD(DimDate[Date], -1, YEAR))
           
