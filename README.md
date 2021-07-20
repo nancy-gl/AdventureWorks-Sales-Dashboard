@@ -45,13 +45,4 @@
   ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/ExecutiveDashboard.png)
   
   
-  
-  
-  * Added Customer Details report as shown:
-  
-    ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/Customer%20Details.png)
-    
-  * Added Product Details report as shown:
-  
-    ![](https://github.com/nancy-gl/AdventureWorks-Sales-Dashboard/blob/main/images/Product%20Details.png)
 
