@@ -56,6 +56,6 @@
          * iv.	YoY Sales % = DIVIDE ([YoY Sales], [LY Sales], "-")
 
 
-## [Click here to view the dashboard on the web.](<iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=c3bd800e-0ba0-4874-83d0-77031fa7c2fb&autoAuth=true&ctid=3fb43f9e-f396-473f-bdb4-7b116a3228ce&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtdXMtYi1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameborder="0" allowFullScreen="true"></iframe>)
+## [Click here to view the dashboard on the web.]("https://app.powerbi.com/reportEmbed?reportId=c3bd800e-0ba0-4874-83d0-77031fa7c2fb&autoAuth=true&ctid=3fb43f9e-f396-473f-bdb4-7b116a3228ce&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtdXMtYi1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameborder="0" allowFullScreen="true"></iframe>)
 
 
